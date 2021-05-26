@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:duration="2000"
+        android:src="@drawable/candy" />
+    <item
+        android:duration="2000"
+        android:src="@drawable/lock" />
+    <item
+        android:duration="2000"
+        android:src="@drawable/ps" />
+    <item
+        android:duration="2000"
+        android:src="@drawable/clothes" />
+</layer-list>

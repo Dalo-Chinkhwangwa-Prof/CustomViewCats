@@ -1,4 +1,4 @@
-package com.coolcats.coolanimationcats.view
+package com.coolcats.coolanimationcats.view.custom
 
 import android.annotation.SuppressLint
 import android.content.Context

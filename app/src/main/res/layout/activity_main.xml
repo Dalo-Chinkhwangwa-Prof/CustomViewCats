@@ -6,7 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
-    <com.coolcats.coolanimationcats.view.CoolButton
+
+    <com.coolcats.coolanimationcats.view.custom.CoolCatzProgressBar
+        android:id="@+id/custom_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:exampleText="Hello World! It Works..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/slide_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/slide_list"/>
+
+    <com.coolcats.coolanimationcats.view.custom.CoolButton
+        android:id="@+id/cool_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:buttonText="Save"

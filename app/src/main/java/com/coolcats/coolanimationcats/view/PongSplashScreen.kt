@@ -9,8 +9,8 @@ import android.view.View
 class PongSplashScreen(context: Context): View(context) {
 
 
-    private var speedX = 5f
-    private var speedY = 5f
+    private var speedX = 150f
+    private var speedY = 150f
 
     private val radius = 77f
 
@@ -21,8 +21,8 @@ class PongSplashScreen(context: Context): View(context) {
     private val paint = Paint()
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        canvas.drawColor(Color.WHITE)
-        paint.color = Color.BLUE
+        canvas.drawColor(Color.RED)
+        paint.color = Color.WHITE
 
         canvas.drawCircle(positionX, positionY, radius, paint)
 

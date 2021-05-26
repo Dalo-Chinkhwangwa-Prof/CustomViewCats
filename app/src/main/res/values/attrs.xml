@@ -4,5 +4,9 @@
         <attr name="buttonText" format="string"/>
     </declare-styleable>
 
+    <declare-styleable name="CoolCatzProgressBar">
+        <attr name="exampleText" format="string"/>
+    </declare-styleable>
+
 
 </resources>
